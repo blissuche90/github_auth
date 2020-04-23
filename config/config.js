@@ -18,7 +18,7 @@ module.exports = {
 		github: {
 			clientID: "68251764f47083a1de55",
 			clientSecret: "5780eb8e1640c4c1d913ea6c5beb8ba8eae0cd1e",
-			callbackURL: "http://127.0.0.1:3000/auth/github/callback"
+			callbackURL: "https://fireflies-git-auth.herokuapp.com/auth/github/callback"
 		}
 	},
   	production: {
@@ -39,7 +39,7 @@ module.exports = {
 		github: {
 			clientID: '68251764f47083a1de55',
 			clientSecret: '5780eb8e1640c4c1d913ea6c5beb8ba8eae0cd1e',
-			callbackURL: 'http://127.0.0.1:3000/auth/github/callback'
+			callbackURL: 'https://fireflies-git-auth.herokuapp.com/auth/github/callback'
 		}
  	}
 }
