@@ -29,7 +29,7 @@ module.exports = function (passport, config) {
       }
     )
   );
-
+/*
   passport.use(
     new FacebookStrategy(
       {
@@ -45,7 +45,7 @@ module.exports = function (passport, config) {
       }
     )
   );
-
+*/
   passport.use(
     new GitHubStrategy(
       {
@@ -61,7 +61,7 @@ module.exports = function (passport, config) {
       }
     )
   );
-
+/*
   passport.use(
     new GoogleStrategy(
       {
@@ -77,4 +77,5 @@ module.exports = function (passport, config) {
       }
     )
   );
+  */
 };
