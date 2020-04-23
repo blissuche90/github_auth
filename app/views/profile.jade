@@ -1,0 +1,15 @@
+if user.github.photo
+	img.image(src='' + user.github.photo )
+
+if user.github.username
+	h3 #{user.github.username}'s Profile
+	h1 Repositiories
+	each name in repo_result
+		div.card
+			h3= name
+
+else
+	h3 #{user.email}'s Profile
+	
+
+a(href="/logout") Logout
