@@ -51,7 +51,6 @@ module.exports = function (passport, config) {
       {
         clientID: config.github.clientID,
         clientSecret: config.github.clientSecret,
-        callbackURL: config.github.callbackURL,
       },
       function (accessToken, refreshToken, profile, done) {     
       profile.authOrigin = "github";
